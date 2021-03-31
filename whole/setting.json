@@ -1,0 +1,35 @@
+{
+    "thread": {
+        "operate_auto": true,
+        "kbhit" : true,
+        "display" : true,
+        "com": true,
+        "manual": true
+    },
+    "com": [
+
+    ],
+    "chassis": {
+        "max_rpm": 300,
+        "channel": {
+            "fr" : 0,
+            "fl" : 1,
+            "br" : 2,
+            "bl" : 3
+        },
+        "inverse": {
+            "fr": false,
+            "fl": false,
+            "br": false,
+            "bl": false            
+        },
+        "rotate": {
+            "min": 20,
+            "max": 50,
+            "kp": 60
+        }
+    },
+    "system": {
+        "calc_period_ms": 50
+    }
+}
