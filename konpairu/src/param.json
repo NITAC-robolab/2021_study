@@ -1,0 +1,7 @@
+{
+    "com_pwm_control":[
+    ["enable",1,0],
+    ["max_pwm",30,30],
+    ["max_pwm_cange",20,20]
+    ]
+}
